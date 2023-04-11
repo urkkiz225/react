@@ -1,16 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Photo from "./photo.js"
+import React from "react"
+import ReactDOM from "react-dom/client"
 import Header from "./Header.js"
 import DefElement from "./DefElement.js"
-import img from "./kesasim.png"
+import KesaSimImg from "./kesasim.png"
+import ChickenWareImg from "./chickenWareShowCase.png"
+import FluidGrid from 'react-fluid-grid'
 
-const myPage =<div>
+
+const myPage = <div>
 <Header/>
- <h1 style={{color: "blue"}}>this u?</h1>
- <Photo/>
- <DefElement image={img}/>
- <h4 style={{color:"red"}}> this meme was brought to you by google</h4>
+<div class="fluid_container">
+ <FluidGrid>
+  <DefElement image={KesaSimImg} text="kesäSimulaattori" link="location.href = 'https://github.com/urkkiz225/kesaSimulaattori';"/>
+   <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
+   <DefElement image={KesaSimImg} text="kesäSimulaattori" link="location.href = 'https://github.com/urkkiz225/kesaSimulaattori';"/>
+   <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
+   <DefElement image={KesaSimImg} text="kesäSimulaattori" link="location.href = 'https://github.com/urkkiz225/kesaSimulaattori';"/>
+   <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
+   </FluidGrid>
+ </div>
  </div>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
