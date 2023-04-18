@@ -1,15 +1,15 @@
 {
-  "main.css": "/react/static/css/main.3d8bc17e.chunk.css",
-  "main.js": "/react/static/js/main.d0c57bef.chunk.js",
-  "main.js.map": "/react/static/js/main.d0c57bef.chunk.js.map",
-  "static/js/1.6dacacdc.chunk.js": "/react/static/js/1.6dacacdc.chunk.js",
-  "static/js/1.6dacacdc.chunk.js.map": "/react/static/js/1.6dacacdc.chunk.js.map",
-  "runtime~main.js": "/react/static/js/runtime~main.bf2515a3.js",
-  "runtime~main.js.map": "/react/static/js/runtime~main.bf2515a3.js.map",
-  "static/media/kesasim.png": "/react/static/media/kesasim.b709163f.png",
-  "static/media/chickenWareShowCase.png": "/react/static/media/chickenWareShowCase.596a9cf4.png",
-  "static/css/main.3d8bc17e.chunk.css.map": "/react/static/css/main.3d8bc17e.chunk.css.map",
-  "index.html": "/react/index.html",
-  "precache-manifest.37284fca03e6f7ba8c9cdeea36a4168c.js": "/react/precache-manifest.37284fca03e6f7ba8c9cdeea36a4168c.js",
-  "service-worker.js": "/react/service-worker.js"
+  "main.css": "./static/css/main.3d8bc17e.chunk.css",
+  "main.js": "./static/js/main.d0c57bef.chunk.js",
+  "main.js.map": "./static/js/main.d0c57bef.chunk.js.map",
+  "static/js/1.6dacacdc.chunk.js": "./static/js/1.6dacacdc.chunk.js",
+  "static/js/1.6dacacdc.chunk.js.map": "./static/js/1.6dacacdc.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
+  "static/media/kesasim.png": "./static/media/kesasim.b709163f.png",
+  "static/media/chickenWareShowCase.png": "./static/media/chickenWareShowCase.596a9cf4.png",
+  "static/css/main.3d8bc17e.chunk.css.map": "./static/css/main.3d8bc17e.chunk.css.map",
+  "index.html": "./index.html",
+  "precache-manifest.2aacdfac31fad3f225caab4364663253.js": "./precache-manifest.2aacdfac31fad3f225caab4364663253.js",
+  "service-worker.js": "./service-worker.js"
 }
