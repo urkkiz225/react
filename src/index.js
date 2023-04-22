@@ -14,7 +14,7 @@ const myPage = <div>
   <DefElement image={KesaSimImg} text="kesäSimulaattori" link="location.href = 'https://github.com/urkkiz225/kesaSimulaattori';"/>
    <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
    <DefElement image={KesaSimImg} text="kesäSimulaattori" link="location.href = 'https://github.com/urkkiz225/kesaSimulaattori';"/>
-   <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
+   <DefElement image={ChickenWareImg} text="Link to ChickenWare repo" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
    <DefElement image={KesaSimImg} text="kesäSimulaattori" link="location.href = 'https://github.com/urkkiz225/kesaSimulaattori';"/>
    <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
    </FluidGrid>
