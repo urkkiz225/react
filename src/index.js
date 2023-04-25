@@ -19,6 +19,7 @@ const myPage = <div>
    <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
    </FluidGrid>
  </div>
+ <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
  </div>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
