@@ -1,26 +1,32 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import Header from "./Header.js"
-import DefElement from "./DefElement.js"
-import KesaSimImg from "./kesasim.png"
-import ChickenWareImg from "./chickenWareShowCase.png"
+import Header from "./pages/UtilClasses/Header.js"
+import DefElement from "./pages/UtilClasses/DefElement.js"
+import KesaSimImg from "./pages/Images/kesasim.png"
+import ChickenWareImg from "./pages/Images/chickenWareShowCase.png"
 import FluidGrid from 'react-fluid-grid'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/MainPage";
+import Blogs from "./pages/Blocky";
+import Contact from "./pages/Contacts";
+import NoPage from "./pages/NoPage";
 
 
 const myPage = <div>
-<Header/>
-<div class="fluid_container">
- <FluidGrid>
-  <DefElement image={KesaSimImg} text="kesäSimulaattori" link="location.href = 'https://github.com/urkkiz225/kesaSimulaattori';"/>
-   <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
-   <DefElement image={KesaSimImg} text="kesäSimulaattori" link="location.href = 'https://github.com/urkkiz225/kesaSimulaattori';"/>
-   <DefElement image={ChickenWareImg} text="Link to ChickenWare repo" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
-   <DefElement image={KesaSimImg} text="kesäSimulaattori" link="location.href = 'https://github.com/urkkiz225/kesaSimulaattori';"/>
-   <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
-   </FluidGrid>
- </div>
- <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
- </div>
+  <Header/>
+  <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  <DefElement image={ChickenWareImg} text="ChickenWare" link="location.href = 'https://github.com/urkkiz225/ChickenWare';"/>
+</div>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(myPage);
