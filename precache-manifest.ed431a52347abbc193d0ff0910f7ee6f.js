@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "6ebe2b2cda67b5492b20",
-    "url": "/react/static/css/main.f814946e.chunk.css"
+    "revision": "56c0550fb2f775f184c6",
+    "url": "/react/static/css/main.8b423184.chunk.css"
   },
   {
-    "revision": "6ebe2b2cda67b5492b20",
-    "url": "/react/static/js/main.6ebe2b2c.chunk.js"
+    "revision": "56c0550fb2f775f184c6",
+    "url": "/react/static/js/main.56c0550f.chunk.js"
   },
   {
-    "revision": "763fc5f96eb9783f47f6",
-    "url": "/react/static/js/1.763fc5f9.chunk.js"
+    "revision": "3d3f4a41fdf6da6f0e80",
+    "url": "/react/static/js/1.3d3f4a41.chunk.js"
   },
   {
     "revision": "bf2515a31126aef78a60",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/react/static/media/chickenWareShowCase.596a9cf4.png"
   },
   {
-    "revision": "443f446407bd155836dbd2ac96cb1427",
+    "revision": "af04aad59eb634310254021e7572b06a",
     "url": "/react/index.html"
   }
 ];
