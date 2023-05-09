@@ -1,11 +1,11 @@
-import "./style.css"
+import "./UtilClasses/style.css"
 import React from 'react';
 import FluidGrid from 'react-fluid-grid'
-import Photo from "./photo.js"
+import Photo from "./UtilClasses/photo.js"
 
 function Header(){
   return(
-  <div class="mt-4 p-5 headerColor rounded-left">
+  <div class="mt-4 p-5 desertSun rounded">
    <FluidGrid>
      <div>
        <h1>Portfolio</h1>

@@ -1,6 +1,25 @@
 body{
   background-color: #661d1d
 }
+.darkBlue{
+  background-color: #0b1c48
+}
+
+.orange{
+  background-color: #e66912
+}
+
+.desertSun{
+  background-color: #c68b5e
+}
+
+.burntScienna{
+  background-color: #ad7850
+}
+
+.teal{
+  background-color: #016367
+}
 
 .headerColor{
   background-color: #ba7e0f
@@ -11,12 +30,22 @@ body{
 }
 
 .element{
-  background-color: #661d1d;
+  background-color: #a16e48;
   width: 100%;
   text-align: center;
   border: 5px solid #ba7e0f;
-  border-radius: 16px;
-  padding: 60px;
+  border-radius: 4px;
+  padding: 10px;
+  margin: auto;
+}
+
+.layout{
+  background-color: #a16e48;
+  width: 100%;
+  border: 5px solid #ba7e0f;
+  border-radius: 4px;
+  padding: 10px;
+  margin: auto;
 }
 
 .element img {

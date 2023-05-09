@@ -1,27 +1,33 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Outlet, Link } from "react-router-dom";
+import Header from "./Header.js"
 
 
 const Layout = () => {
   return (
-    <>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <Link class="navbar-brand" to="#">WebSiteName</Link>
-        </div>
-        <ul class="nav navbar-nav">
-          <Link to="/cv">Portfolio</Link>
-          <Link to="/contact">CV</Link>
-          <Link to="/">HomePage</Link>
+    <div>
 
-        </ul>
-      </div>
-    </nav>
+    <Header/>
 
-      <Outlet />
-    </>
+    <div class="layout">
+    <nav>
+
+            <ul>
+              <li>
+                <Link to="/react">Home</Link>
+              </li>
+              <li>
+                <Link to="/react/cv">CV</Link>
+              </li>
+              <li>
+                <Link to="/react/contact">Contact</Link>
+              </li>
+            </ul>
+          </nav>
+          <Outlet />
+    </div>
+    </div>
   )
 };
 
