@@ -25,6 +25,7 @@ const page = <div class="burntScienna">
         </Route>
       </Routes>
     </BrowserRouter>
+
 </div>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
